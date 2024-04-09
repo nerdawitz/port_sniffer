@@ -1,0 +1,10 @@
+[package]
+name = "port-sniffer"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { versison = "1", features = ["full"] }
+bpaf = { version = "0.7", features = ["derive", "bright-color"] }
